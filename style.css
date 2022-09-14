@@ -1,21 +1,20 @@
 body{
     font-family: 'Roboto Slab', serif;
+    margin: 0%;
 }
 span{
     color: rgb(255, 166, 0);
 }
 h1{
     color: rgb(82, 68, 68);
-    font-size: 35px;
+    font-size: 40px;
 }
 section{
-    width: 50%;
-    height: 200px;
-    
+    display: flex;
     
 }
 .div1{
-    padding-left: 50px;
+    padding-left: 100px;
     padding-top: 150px;
 }
 .ForPara{
@@ -32,6 +31,95 @@ a{
     color: white;
 }
 img{
+    padding-top: 80px;
     width: 100%;
-    display: flex;
+}
+.half-width{
+    width: 50%;
+    
+}
+.image2nd{
+    height: 550px;
+    width: 400px;
+    padding-left: 100px;
+}
+h2{
+
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: rgb(119, 109, 109);
+}
+.para2nd{
+    width: 70%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.for-bg{
+    background-image: url("/eat-healthy-main/images/shapes/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+    
+}
+#myrecipies{
+    text-align: center;
+    padding-top: 30px;
+}
+.forcheck{
+    
+    width: 40%;
+    margin-left: 100px;
+    padding-right: 0px;
+    padding-top: 20px;
+    
+}
+#under-recipies{
+    text-align: center;
+    padding: 2px 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 20px;
+}
+.foodpic1{
+    padding-top: 0%;
+    height: 300px;
+    width: 400px;
+    padding-left: 55px;
+}
+.recipe-title{
+    padding-left: 50px;
+    float: left;
+
+}
+.another-check{
+    
+}
+.title-para{
+   width: 90%;
+}
+.forbgshadow{
+    border-radius: 20px;
+    box-shadow: 20px 30px 50px rgb(255, 115, 0);
+}
+.second-last-part{
+    margin-top: 70px;
+    width: 70%;
+    margin-left: 210px;
+    border-radius: 30px;
+    box-shadow: 40px 40px 70px gray;
+
+}
+.last-divs{
+    width: 20%;
+    padding-left: 120px;
+    
+   
+}
+#aladadiv{
+    padding-right: 30px;
+}
+.text-color{
+    color: black;
+}
+.anypara{
+    color: rgba(53, 49, 49, 0.781);
 }
